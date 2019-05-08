@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+   <title>PasswordGen 1.0</title>
+   <meta name="generator" content="Geany 1.29" />
+   <!--Linking the CSS to the HTML -->
+   <link rel="stylesheet" href="/home/pi/Desktop/passwordgen/website/style.css">
+
+</head>
+<!--Defining background color right inside the body tag, background-size:100% will make it responsive -->
+<body style = "background: url(/home/pi/Desktop/passwordgen/website/img/matrix-356024-min.jpg); background-size:100%">
+   
+   <section id="Page1">
+      <h1>Welcome to PasswordGen 1.0</h1>
+      <p>Please select which strength of password you wish to generate</p>
+      <!--Put all in single paragraphs so they'll be shown underneath each other -->
+      <div> WHITESPACE</div>
+      <p>Chain will create a 16 digit password</p>
+      <p>Vault will create a 32 digit password 
+      <p>Fortress will create a 64 digit password</p>
+      <!--empty divs just for whitespace -->
+      <div> __  </div>
+      <p>All passwords will be strong with at least 15 digits, special characters and captials</p>
+      <!--Put buttons in a div to algign them in center -->
+      
+      <div>__   </div>
+      <div style="text-align:center;">
+         <button type="chain">Generate 'Chain' Password</button>
+         <button type="vault">Generate 'Vault' Password</button>
+         <button type="fortress">Generate 'Fortress' Password</button>
+      
+      </div>
+      <!--empty divs just for whitespace -->
+      <div>__  </div>
+      <div>__   </div>
+      
+      <div style="text-align:center;">
+         <textarea name="result" cols="25" rows="5">Password will be shown here</textarea>
+      
+      
+      </div>
+      <!--<div class="box red">This is a rectangle</div>-->
+      
+      
+   
+   
+   </section>
+
+</body>
+
+</html>
